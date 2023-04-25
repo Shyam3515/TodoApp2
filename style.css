@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#todoApp{
+    background-color: #9f6d51;
+    padding:20px;
+    margin-top: 60px;
+    border-radius: 6px;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+.todo-grid,.enterTodo-grid{
+    display: grid;
+    grid-template-columns: 250px 150px 80px;
+    column-gap: 12px;
+    row-gap: 10px;
+    align-items: center;
+}
+.enterTodo-grid{
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+.input,.dueDate{
+    font-size: 15px;
+    padding:8px 6px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+}
+.dueDate{
+    cursor: pointer;
+}
+.enterTodo-grid button, .todo-grid button{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer
+}
+.todo-grid div{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.todo-grid button{
+    background-color: orange;
+    padding:8px 6px;
+}

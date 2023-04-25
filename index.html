@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="todoApp">
+        <h1>Todo List</h1>
+        <div class="enterTodo-grid">
+            <input type="text" placeholder="Enter a todo" class="input">
+            <input type="date" class="dueDate">
+            <button onclick="addTodo()">Add</button>
+        </div>
+        
+        <!-- Todo's container -->
+        <div class="todo-container todo-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
